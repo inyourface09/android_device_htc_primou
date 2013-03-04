@@ -67,7 +67,7 @@ BOARD_SDEXT_DEVICE := /dev/block/mmcblk0p32
 BOARD_USES_MMCUTILS := false
 
 #RIL
- BOARD_USES_LEGACY_RIL := true 
+BOARD_USES_LEGACY_RIL := true 
 
 # PMEM
 TARGET_USES_PMEM := true
