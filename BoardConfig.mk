@@ -66,6 +66,9 @@ BOARD_SDCARD_DEVICE_PRIMARY := /dev/block/mmcblk1p1
 BOARD_SDEXT_DEVICE := /dev/block/mmcblk0p32
 BOARD_USES_MMCUTILS := false
 
+#RIL
+ BOARD_USES_LEGACY_RIL := true 
+
 # PMEM
 TARGET_USES_PMEM := true
 
