@@ -67,7 +67,7 @@ BOARD_SDEXT_DEVICE := /dev/block/mmcblk0p32
 BOARD_USES_MMCUTILS := false
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/htc/msm7x30
+TARGET_KERNEL_SOURCE := kernel/htc/primou
 TARGET_KERNEL_CONFIG := hellboy-bt-42_defconfig
 TARGET_PREBUILT_KERNEL := device/htc/primou/prebuilt/root/kernel
 BUILD_KERNEL := true
