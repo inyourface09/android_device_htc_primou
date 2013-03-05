@@ -71,7 +71,7 @@ TARGET_KERNEL_SOURCE := kernel/htc/primou
 TARGET_KERNEL_CONFIG := hellboy-bt-42_defconfig
 TARGET_PREBUILT_KERNEL := device/htc/primou/prebuilt/root/kernel
 BUILD_KERNEL := true
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7.3
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := eabi-linaro-4.7
 LINARO_BUILD := true
 
 #RIL
