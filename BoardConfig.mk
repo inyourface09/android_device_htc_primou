@@ -33,8 +33,9 @@ USE_CAMERA_STUB := true
 
 TARGET_BOOTLOADER_BOARD_NAME := primou
 
-BOARD_KERNEL_CMDLINE := console=ttyHSL0 androidboot.hardware=primou no_console_suspend=1
-BOARD_KERNEL_BASE := 0x14300000
+BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=primou no_console_suspend=1
+BOARD_KERNEL_BASE := 0x13f00000 
+
 BOARD_KERNEL_PAGE_SIZE := 4096
 
 TARGET_PROVIDES_LIBLIGHTS := true
